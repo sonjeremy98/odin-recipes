@@ -49,3 +49,4 @@
     font-weight: 700;
     font-size: 30px;
 }
+/*putting .topic in front of the .list or .unorder (to create descendent selector) wasn't working for some reason */
