@@ -1,19 +1,51 @@
 
-#heading {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight:700;
-    text-align: center;
-    background-color: rgba(80, 177, 121, 0.486);
-}
+#heading,
 .recipe-name {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight:700;
     text-align: center;
+
+}
+#heading {
+    background-color: rgba(80, 177, 121, 0.486);
 }
 
 .image {
     height:auto;
     width: 700px;
+}
+
+.topic {
+    font-size: 20px;
+}
+
+.description.salmon {
+    background-color: lightsalmon;
+    color:rgb(44, 104, 156)
+}
+
+.mistyrose {
+    background-color: mistyrose;
+    color: blueviolet;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.description.header {
+    background-color: aquamarine;
+}
+
+.list {
+    background-color: brown;
+}
+
+.unorder .li {
+    background-color: aqua;
+    font-weight: 700;
+    font-size: 30px;
 }
